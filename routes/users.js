@@ -5,8 +5,8 @@ const User = require("../models/User")
 router.get("/register" ,async (req,res) => {
     const user = await new User({
         Username:"john",
-        Password: "@mahesh62",
-        email: "mahi@gmail.com" 
+        Password: "john,
+        email: "john@abc.gmail.com" 
     })
     
     await user.save();
